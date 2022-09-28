@@ -178,8 +178,8 @@ Authentication required, returns an Updated User & Target User
         "isAdmin": false,
         "isBlocked": false,
         "_id": "6145c0abf5517c73a5046252",
-        "email": "narendra@gmail.com",
-        "username": "narendra",
+        "email": "zehan@gmail.com",
+        "username": "zehan",
         "password": "$2a$10$MQcX29RqJQm4RAYVmNFnTups3KdRaqRPTU7OTOPtjGqty6Xq60Jkm",
         "profile": "6145c0abf5517c73a5046253",
         "__v": 0
@@ -224,8 +224,8 @@ Authentication required, returns a [Updateduser](#updateduser)
         "isAdmin": false,
         "isBlocked": false,
         "_id": "6145c0abf5517c73a5046252",
-        "email": "narendra@gmail.com",
-        "username": "narendra",
+        "email": "zehan@gmail.com",
+        "username": "zehan",
         "password": "$2a$10$MQcX29RqJQm4RAYVmNFnTups3KdRaqRPTU7OTOPtjGqty6Xq60Jkm",
         "profile": "6145c0abf5517c73a5046253",
         "__v": 0
@@ -362,6 +362,7 @@ Authentication required, will return Specific Updated Question created by follow
 
 Authentication required, will return added Answer to the specific targeted question.
 
+```JSON
 {
     "answer": {
         "upvoteCount": 0,
@@ -376,6 +377,7 @@ Authentication required, will return added Answer to the specific targeted quest
         "__v": 0
     }
 }
+```
 
 ### Get All the List of Answers
 
